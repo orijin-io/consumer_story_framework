@@ -1,0 +1,23 @@
+{
+  "compileOnSave": true,
+  "exclude": ["./node_modules/*", "build"],
+  "compilerOptions": {
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "preserveConstEnums": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "skipLibCheck": true
+  }
+}

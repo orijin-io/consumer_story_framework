@@ -1,0 +1,451 @@
+{
+  "steps": [
+    {
+      "id": "farm_harvest",
+      "label": "Farm & Harvest",
+      "titleLabel": "'Farm'",
+      "title": "'San Gregorio'",
+      "dateLabel": "'Harvest Date'",
+      "mainDate": "'20 Feb 2019'",
+      "title2Label": "'Responsible'",
+      "title2a": "'Walter Alfredo Avilés'",
+      "title2b": "'Age - 43 years'",
+      "locationName": "'Junquillo, Vinces - Ecuador'",
+      "locationCoords": {
+        "_latLong": {
+          "_lat": -2.007744,
+          "_lon": -78.962093
+        },
+        "_altitude": 998
+      },
+      "pictureMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/1-farm_harvest/mainPicture.jpg",
+      "videoMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/1-farm_harvest/mainVideo.mp4",
+      "dataTable": [
+        {
+          "label": "'Farm Model'",
+          "value": "'Family owned, agroforestry'"
+        },
+        {
+          "label": "'Cacao Area'",
+          "value": "'27 hectares'"
+        },
+        {
+          "label": "'Variety'",
+          "value": "'Fine Aroma Nacional'"
+        }
+      ],
+      "learnMore": [
+        {
+          "text": "Walter is a cacao producer of middle age, an enthusiast of old times cacao fino de aroma trees, he runs the agronomic part of a 20 hectares farm, inherited by his wife’s elders more than 25 years ago. Señora Norma on the other hand, manages the production of artisanal cheese obtained from their own cows, while cultivating the most captivating bushes and flowers.",
+          "picture": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/1-farm_harvest/picture1.jpg",
+          "picture2": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/1-farm_harvest/picture2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "farm_harvest_dynamic",
+      "label": "Farm & Harvest",
+      "titleLabel": "'Farm'",
+      "title": "_trace._originProperties2._productionFacility._label",
+      "dateLabel": "'Harvest Date'",
+      "mainDate": "_trace._originProperties2._collectionDate",
+      "title2Label": "'Responsible'",
+      "title2a": "'Walter Alfredo Avilés'",
+      "title2b": "'Age - 43 years'",
+      "locationName": "_trace._originProperties2._prodFacility._location._name",
+      "locationCoords": "_trace._originProperties2._prodFacility._location._coordinates",
+      "pictureMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/1-farm_harvest/mainPicture.jpg",
+      "videoMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/1-farm_harvest/mainVideo.mp4",
+      "dataTable": [
+        {
+          "label": "Farm Model",
+          "value": "_trace._originProperties2._prodFacility._farmDetails._farmModel"
+        },
+        {
+          "label": "Cacao Area",
+          "value": "_trace._originProperties2._prodFacility._farmDetails._cacaoArea"
+        },
+        {
+          "label": "Variety",
+          "value": "_trace._originProperties2._variety._name"
+        }
+      ],
+      "learnMore": [
+        {
+          "text": "Walter is a cacao producer of middle age, an enthusiast of old times cacao fino de aroma trees, he runs the agronomic part of a 20 hectares farm, inherited by his wife’s elders more than 25 years ago. Señora Norma on the other hand, manages the production of artisanal cheese obtained from their own cows, while cultivating the most captivating bushes and flowers.",
+          "picture": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/1-farm_harvest/picture1.jpg",
+          "picture2": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/1-farm_harvest/picture2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "post_harvest",
+      "label": "Post-Harvest",
+      "titleLabel": "'Name of the Site'",
+      "title": "'Vinces Collection Center'",
+      "dateLabel": "'Reception Date'",
+      "mainDate": "'20 Feb 2019'",
+      "title2Label": "'Responsible'",
+      "title2a": "'Carlos Zambrano'",
+      "title2b": "'Batch Number - CCC20022019'",
+      "locationName": "'Vinces, Ecuador'",
+      "locationCoords": {
+        "_latLong": {
+          "_lat": -2.007744,
+          "_lon": -78.962093
+        },
+        "_altitude": 998
+      },
+      "pictureMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/mainPicture.jpg",
+      "videoMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/mainVideo.mp4",
+      "dataTable": [
+        {
+          "label": "'Raw Batch Weight'",
+          "value": "'1269 kg'"
+        },
+        {
+          "label": "'Days of Fermentation'",
+          "value": "'5 days'"
+        },
+        {
+          "label": "'Days of Drying'",
+          "value": "'9 days'"
+        }
+      ],
+      "learnMore": [
+        {
+          "title": "Cacao Fermentation",
+          "text": "'some text'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/1-fermentation1.mp4"
+        },
+        {
+          "title": "Cacao Drying",
+          "text": "'some text'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/2-drying1.mp4"
+        },
+        {
+          "title": "'Proofs'",
+          "text": "'PENDING TEXT'",
+          "pdf": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/document1.pdf",
+          "pdfTitle": "'Cacao Grain Technical Sheet'",
+          "pdf2": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/document2.pdf",
+          "pdfTitle2": "'Post Harvest Process Proof'"
+        }
+      ]
+    },
+    {
+      "id": "post_harvest_dynamic",
+      "label": "Post-Harvest",
+      "titleLabel": "'Name of the Site'",
+      "title": "_trace._traceProdLots2[?_state._currentState=='COLLECTED']._prodFacility._name",
+      "dateLabel": "'Reception Date'",
+      "mainDate": "date(_trace._traceProdLots2[?_state._currentState=='COLLECTED']._startDate, 'DDMMYY')",
+      "title2Label": "'Responsible'",
+      "title2a": "'Carlos Zambrano'",
+      "title2b": "['Batch Number: ', _trace._traceProdLots2[?_state._currentState=='COLLECTED']._processingProperties.batchNumber]| join('', @",
+      "locationName": "_trace._traceProdLots2[?_state._currentState=='COLLECTED']._prodFacility._location._name",
+      "locationCoords": "_trace._traceProdLots2[?_state._currentState=='COLLECTED']._prodFacility._coordinates",
+      "pictureMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/mainPicture.jpg",
+      "videoMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/mainVideo.mp4",
+      "dataTable": [
+        {
+          "label": "'Days of Fermentation'",
+          "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='FERMENTED']._startDate,_trace._traceProdLots2[?_state._currentState=='FERMENTED']_finishedDate)"
+        },
+        {
+          "label": "'Days of Drying'",
+          "value": "calculatePeriod(_trace._traceProdLots2[_state._currentState=='DRIED']._startDate,_trace._traceProdLots2[_state._currentState=='DRIED']_finishedDate)"
+        }
+      ],
+      "learnMore": [
+        {
+          "title": "Cacao Fermentation",
+          "text": "'some text'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/1-fermentation1.mp4"
+        },
+        {
+          "title": "Cacao Drying",
+          "text": "'some text'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/2-drying1.mp4",
+          "dataTable": [
+            {
+              "label": "'Raw Batch Weight'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='COLLECTED']._processingProperties._afterWeight, 'Kg')"
+            },
+            {
+              "label": "'Dried Weight'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='DRIED']._processingProperties._afterWeight, 'Kg')"
+            },
+            {
+              "label": "'Conversion Rate'",
+              "value": "percentageOf(_trace._traceProdLots2[?_state._currentState=='DRIED', _trace._traceProdLots2[?_state._currentState=='COLLECTED']._processingProperties._afterWeight]._processingProperties._afterWeight,1)"
+            }
+          ]
+        },
+        {
+          "title": "'Proofs'",
+          "text": "'PENDING TEXT'",
+          "pdf": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/document1.pdf",
+          "pdfTitle": "'Cacao Grain Technical Sheet'",
+          "pdf2": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/2-post_harvest/document2.pdf",
+          "pdfTitle2": "'Post Harvest Process Proof'"
+        }
+      ]
+    },
+    {
+      "id": "recipe",
+      "label": "Recipe",
+      "titleLabel": "''",
+      "title": "'70% Vinces Dark Chocolate'",
+      "dateLabel": "''",
+      "mainDate": "'27 November 2019'",
+      "title2Label": "'Chocolatier'",
+      "title2a": "'Armand Bongrain'",
+      "title2b": "''",
+      "locationName": "'Vinces, Ecuador'",
+      "locationCoords": {
+        "_latLong": {
+          "_lat": -2.007744,
+          "_lon": -78.962093
+        },
+        "_altitude": 998
+      },
+      "pictureMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/3-recipe/mainPicture.jpg",
+      "dataTable": [
+        {
+          "label": "'Cacao solid'",
+          "value": "'59,5%'"
+        },
+        {
+          "label": "'Sweetner'",
+          "value": "'29% White Sugar'"
+        },
+        {
+          "label": "'Cacao Butter'",
+          "value": "'10,5%'"
+        },
+        {
+          "label": "'Flavor notes'",
+          "value": "' '"
+        }
+      ]
+    },
+    {
+      "id": "recipe_dynamic",
+      "label": "Recipe",
+      "titleLabel": "''",
+      "title": "'70% Vinces Dark Chocolate'",
+      "dateLabel": "''",
+      "mainDate": "date(_trace._traceProdLots2[?_state._currentState=='RECIPE']._startDate, 'DDMMYY')",
+      "title2Label": "'Chocolatier'",
+      "title2a": "'Armand Bongrain'",
+      "title2b": "''",
+      "locationName": "_trace._traceProdLots2[?_state._currentState=='RECIPE']._prodFacility._location._name",
+      "locationCoords": "_trace._traceProdLots2[?_state._currentState=='RECIPE']._prodFacility._coordinates",
+      "pictureMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/3-recipe/mainPicture.jpg",
+      "dataTable": [
+        {
+          "label": "'Cacao solid'",
+          "value": "_trace._traceProdLots2[?_state._currentState=='RECIPE']._processingProperties.cacaoSolid"
+        },
+        {
+          "label": "'Sweetner'",
+          "value": "_trace._traceProdLots2[?_state._currentState=='RECIPE']._processingProperties.sweetner"
+        },
+        {
+          "label": "'Cacao Butter'",
+          "value": "_trace._traceProdLots2[?_state._currentState=='RECIPE']._processingProperties.cacaoButter"
+        },
+        {
+          "label": "'Flavor notes'",
+          "value": "_trace._traceProdLots2[?_state._currentState=='RECIPE']._processingProperties.flavorNotes"
+        }
+      ]
+    },
+    {
+      "id": "chocolate",
+      "label": "Chocolate Making",
+      "titleLabel": "'Name of the site'",
+      "title": "'My Field to Bar Chocolate Lab'",
+      "dateLabel": "'Production Start Date '",
+      "mainDate": "'27 November 2019'",
+      "title2Label": "'Responsible'",
+      "title2a": "'Carlos Zambrano '",
+      "title2b": "'Chocolate Batch Number - MFTB2019001ABWA'",
+      "locationName": "'Vinces, Ecuador'",
+      "locationCoords": {
+        "_latLong": {
+          "_lat": -2.007744,
+          "_lon": -78.962093
+        },
+        "_altitude": 998
+      },
+      "pictureMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/mainPicture.jpg",
+      "videoMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/mainVideo.mp4",
+      "dataTable": [
+        {
+          "label": "'Roasting time'",
+          "value": "'60 min / 140 C'"
+        },
+        {
+          "label": "'Conching time'",
+          "value": "'48h'"
+        },
+        {
+          "label": "'Granulometry'",
+          "value": "'22 microns'"
+        }
+      ]
+    },
+    {
+      "id": "chocolate_dynamic",
+      "label": "Chocolate Making",
+      "titleLabel": "'Name of the site'",
+      "title": "'_trace._traceProdLots2[?_state._currentState=='COLLECTED']._prodFacility._name",
+      "dateLabel": "'Production Start Date '",
+      "mainDate": "date(_trace._traceProdLots2[?_state._currentState=='ROASTED']._startDate, 'DDMMYY')",
+      "title2Label": "'Responsible'",
+      "title2a": "'Carlos Zambrano '",
+      "title2b": "['Chocolate Batch Number - ', _trace._traceProdLots2[?_state._currentState=='COLLECTED']._processingProperties._batchNumber]| join('', @)",
+      "locationName": "_trace._traceProdLots2[?_state._currentState=='ROASTED']._prodFacility._location._name",
+      "locationCoords": "_trace._traceProdLots2[?_state._currentState=='ROASTED']._prodFacility._coordinates",
+      "pictureMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/mainPicture.jpg",
+      "videoMain": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/mainVideo.mp4",
+      "dataTable": [
+        {
+          "label": "'Roasting time'",
+          "value": "[calculatePeriod(_trace._traceProdLots2[?_state._currentState=='ROASTED']._startDate,_trace._traceProdLots2[?_state._currentState=='ROASTED']._finishedDate), formatWeight(_trace._traceProdLots2[?_state._currentState=='CONCHED']._processingProperties._temperature, 'C')] | join(' / ', @)"
+        },
+        {
+          "label": "'Conching time'",
+          "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='CONCHED']._startDate,_trace._traceProdLots2[?_state._currentState=='CONCHED']._finishedDate)"
+        },
+        {
+          "label": "'Granulometry'",
+          "value": "_trace._traceProdLots2[?_state._currentState=='COLLECTED']._processingProperties._finess"
+        }
+      ],
+      "learnMore": [
+        {
+          "title": "Cacao Bean Classification",
+          "text": "'some text MISSING!!'",
+          "pdf": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/1-clasification.pdf",
+          "pdfTitle": "'Classification Control Sheet'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/1-clasification1.MOV",
+          "dataTable": [
+            {
+              "label": "'Weight'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='CLASSIFIED']._processingProperties._afterWeight, 'Kg')"
+            },
+            {
+              "label": "'Processing time'",
+              "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='CLASSIFIED']._startDate,_trace._traceProdLots2[?_state._currentState=='CLASSIFIED']._finishedDate)"
+            }
+          ]
+        },
+        {
+          "title": "Roasting",
+          "text": "'some text MISSING!!'",
+          "pdf": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/2-roasting1.pdf",
+          "pdfTitle": "'Roasting Control Sheet'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/2-roasting1.MOV",
+          "dataTable": [
+            {
+              "label": "'Temperature'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='ROASTED']._processingProperties._temperature, 'C')"
+            },
+            {
+              "label": "'Processing time'",
+              "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='ROASTED']._startDate,_trace._traceProdLots2[?_state._currentState=='ROASTED']._finishedDate)"
+            }
+          ]
+        },
+        {
+          "title": "Winnoing",
+          "text": "'some text MISSING!!'",
+          "pdf": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/3-winnowing.pdf",
+          "pdfTitle": "'Winnowing Control Sheet'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/3-winnowing1.mp4",
+          "dataTable": [
+            {
+              "label": "'Temperature'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='ROASTED']._processingProperties._temperature, 'C')"
+            },
+            {
+              "label": "'Processing time'",
+              "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='ROASTED']._startDate,_trace._traceProdLots2[?_state._currentState=='ROASTED']._finishedDate)"
+            }
+          ]
+        },
+        {
+          "title": "Grinding",
+          "text": "'some text MISSING!!'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/4-grinding1.MOV",
+          "dataTable": [
+            {
+              "label": "'Weight'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='GRINDED']._processingProperties._afterWeight, 'Kg')"
+            },
+            {
+              "label": "'Processing time'",
+              "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='GRINDED']._startDate,_trace._traceProdLots2[?_state._currentState=='GRINDED']._finishedDate)"
+            }
+          ]
+        },
+        {
+          "title": "Conching",
+          "text": "'some text MISSING!!'",
+          "pdf": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/5-conching1.pdf",
+          "pdfTitle": "'Conching Control Sheet'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/5-conching1.mp4",
+          "dataTable": [
+            {
+              "label": "'Weight'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='CONCHED']._processingProperties._afterWeight, 'Kg')"
+            },
+            {
+              "label": "'Processing time'",
+              "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='CONCHED']._startDate,_trace._traceProdLots2[?_state._currentState=='CONCHED']._finishedDate)"
+            }
+          ]
+        },
+        {
+          "title": "Molding",
+          "text": "'some text MISSING!!'",
+          "pdf": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/6-molding1.pdf",
+          "pdfTitle": "'Molding Control Sheet'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/6-molding1.mp4",
+          "dataTable": [
+            {
+              "label": "'Weight'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='MOLDED']._processingProperties._afterWeight, 'Kg')"
+            },
+            {
+              "label": "'Processing time'",
+              "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='MOLDED']._startDate,_trace._traceProdLots2[?_state._currentState=='MOLDED']._finishedDate)"
+            }
+          ]
+        },
+        {
+          "title": "Final Product",
+          "text": "'some text MISSING!!'",
+          "pdf": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/7-packaging1.pdf",
+          "pdfTitle": "'Product Quality Certificate'",
+          "pdf2": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/7-packaging2.pdf",
+          "pdfTitle2": "'Product Technical Sheet'",
+          "video": "https://storage.cloud.google.com/orijin-rdc-xmas-dev/media/4-chocolate/7-packaging1.MOV",
+          "dataTable": [
+            {
+              "label": "'Weight'",
+              "value": "formatWeight(_trace._traceProdLots2[?_state._currentState=='PACKAGED']._processingProperties._afterWeight, 'Kg')"
+            },
+            {
+              "label": "'Processing time'",
+              "value": "calculatePeriod(_trace._traceProdLots2[?_state._currentState=='MOLDED']._startDate,_trace._traceProdLots2[?_state._currentState=='MOLDED']._finishedDate)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

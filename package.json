@@ -1,0 +1,40 @@
+{
+  "name": "orijin",
+  "private": true,
+  "scripts": {},
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "humanize-duration": "^3.17.0",
+    "js-joda": "^1.9.2",
+    "moment": "^2.24.0",
+    "assert": "^1.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.0.0-rc.1",
+    "@types/chai": "^4.1.4",
+    "@types/jmespath": "^0.15.0",
+    "@types/mocha": "^5.2.4",
+    "@types/moment": "^2.13.0",
+    "@types/sinon": "^5.0.1",
+    "@types/yup": "^0.24.7",
+    "es6-shim": "^0.35.4",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "ts-node": "^7.0.0",
+    "ts-sinon": "^1.0.12",
+    "concurrently": "^4.1.0",
+    "prettier": "^1.15.3",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.4.3",
+    "yarn": "^1.16.0"
+  }
+}

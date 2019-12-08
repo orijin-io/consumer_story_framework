@@ -1,0 +1,836 @@
+{
+  "_trace": {
+    "_originItemsArray": [],
+    "_targetVessel": null,
+    "_traceBatches": [],
+    "_traceProdLots": [],
+    "_traceProdLots2": [
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_numberOfPackages": 160,
+          "_packageWeight": 0.05,
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "PACKAGED"
+        },
+        "_id": {
+          "_id": "a58bcd8d-c000-4c3c-93a2-f351ad422836",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Packaged"
+        },
+        "_startDate": "2019-12-02T04:00:00.000Z",
+        "_finishedDate": "2019-12-02T04:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "MOLDED"
+        },
+        "_id": {
+          "_id": "d87c5aab-d620-4ffa-84f7-a4d822f2fbd2",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - molding"
+        },
+        "_startDate": "2019-12-01T13:00:00.000Z",
+        "_finishedDate": "2019-12-01T16:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "TEMPERED"
+        },
+        "_id": {
+          "_id": "03611ae2-8dc9-4122-8188-347035463ef3",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - tempering"
+        },
+        "_startDate": "2019-12-01T10:00:00.000Z",
+        "_finishedDate": "2019-12-01T13:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_conchingTemperatureLow": 65,
+          "_conchingTemperatureHigh": 85,
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "CONCHED"
+        },
+        "_id": {
+          "_id": "04509825-91ba-465b-a32e-ae4af0c5a053",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Conched"
+        },
+        "_startDate": "2019-12-01T04:00:00.000Z",
+        "_finishedDate": "2019-12-01T10:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "GRINDED"
+        },
+        "_id": {
+          "_id": "2345ca81-ac2b-4e5f-89a6-c3c3446901a2",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Grinded"
+        },
+        "_startDate": "2019-11-30T09:00:00.000Z",
+        "_finishedDate": "2019-11-30T09:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "WINNOWED"
+        },
+        "_id": {
+          "_id": "f58e8356-48e4-4c10-99e4-dab6fa2ab99c",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Winnowed"
+        },
+        "_startDate": "2019-11-30T05:00:00.000Z",
+        "_finishedDate": "2019-11-30T05:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_roastLevel": "Medium",
+          "_roastStyle": "Drum",
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "ROASTED"
+        },
+        "_id": {
+          "_id": "86859b26-ddd9-44d9-9890-6d69601e2064",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Roasted"
+        },
+        "_startDate": "2019-11-29T09:00:00.000Z",
+        "_finishedDate": "2019-11-29T09:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_humidity": 6,
+          "_gradeOfFermentation": 81,
+          "_numberOfBeansIn100g": 84,
+          "_defective": false,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "CLASSIFIED"
+        },
+        "_id": {
+          "_id": "7b33d1ad-0425-4480-bf3f-24a687d53e3e",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Classified"
+        },
+        "_startDate": "2019-11-29T07:00:00.000Z",
+        "_finishedDate": "2019-11-29T07:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "CLEANED"
+        },
+        "_id": {
+          "_id": "891f4b1b-45cf-48f8-8de2-a52f7d981060",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Cleaned"
+        },
+        "_startDate": "2019-11-29T05:00:00.000Z",
+        "_finishedDate": "2019-11-29T05:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "ProductionFactory",
+          "_name": "RDC Factory",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "2048a187-a2dd-4479-858d-8c3c0e7a01aa",
+              "_refcollection": "locations",
+              "_label": "RDC Factory"
+            },
+            "_properties": {},
+            "_name": "RDC Factory",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "bce9f057-5b27-4b7a-a6b4-04e30fda77d7",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Factory - Production Factory"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_humidity": 7,
+          "_beforeWeight": 40,
+          "_discardedWeight": 0,
+          "_afterWeight": 40,
+          "_defective": false,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "BAGGED"
+        },
+        "_id": {
+          "_id": "153c73b7-e831-47be-8ec6-5ecd1cf519df",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Bagged"
+        },
+        "_startDate": "2019-05-27T07:00:00.000Z",
+        "_finishedDate": "2019-05-27T07:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "CollectionFacility",
+          "_name": "RDC Collection Center",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "9693a76b-ce48-4dc1-aac1-15a5f0fedc2e",
+              "_refcollection": "locations",
+              "_label": "RDC Collection Center"
+            },
+            "_properties": {},
+            "_name": "RDC Collection Center",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "c4ce38d7-c188-47a8-a87c-ec0d892f6074",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Collection Center - Collection Facility"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_gradeOfFermentation": 81,
+          "_beforeWeight": 60,
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1,
+          "_afterWeight": 40
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "DRIED"
+        },
+        "_id": {
+          "_id": "8b6e27f9-c6d6-4cf8-9ea8-8d1576a0d537",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Dried"
+        },
+        "_startDate": "2019-05-17T07:00:00.000Z",
+        "_finishedDate": "2019-05-27T07:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "CollectionFacility",
+          "_name": "RDC Collection Center",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "9693a76b-ce48-4dc1-aac1-15a5f0fedc2e",
+              "_refcollection": "locations",
+              "_label": "RDC Collection Center"
+            },
+            "_properties": {},
+            "_name": "RDC Collection Center",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "c4ce38d7-c188-47a8-a87c-ec0d892f6074",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Collection Center - Collection Facility"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_beforeWeight": 80,
+          "_temperature": 80,
+          "_discardedWeight": 0,
+          "_afterWeight": 60,
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "FERMENTED"
+        },
+        "_id": {
+          "_id": "520f87ab-db61-48db-8542-2f23d6821b5b",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Fermented"
+        },
+        "_startDate": "2019-05-14T07:00:00.000Z",
+        "_finishedDate": "2019-05-17T07:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "CollectionFacility",
+          "_name": "RDC Collection Center",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "9693a76b-ce48-4dc1-aac1-15a5f0fedc2e",
+              "_refcollection": "locations",
+              "_label": "RDC Collection Center"
+            },
+            "_properties": {},
+            "_name": "RDC Collection Center",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "c4ce38d7-c188-47a8-a87c-ec0d892f6074",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Collection Center - Collection Facility"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_afterWeight": 80,
+          "_discardedWeight": 0,
+          "_beforeWeight": 80,
+          "_money": {
+            "_amount": "30",
+            "_unit": "USD"
+          },
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "COLLECTED"
+        },
+        "_id": {
+          "_id": "07cc6299-2252-43b6-b20c-3cdc231787c1",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Collected"
+        },
+        "_startDate": "2019-05-14T05:00:00.000Z",
+        "_finishedDate": "2019-05-15T05:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "CollectionFacility",
+          "_name": "RDC Collection Center",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "9693a76b-ce48-4dc1-aac1-15a5f0fedc2e",
+              "_refcollection": "locations",
+              "_label": "RDC Collection Center"
+            },
+            "_properties": {},
+            "_name": "RDC Collection Center",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "c4ce38d7-c188-47a8-a87c-ec0d892f6074",
+            "_refcollection": "prodfacilities",
+            "_label": "RDC Collection Center - Collection Facility"
+          }
+        }
+      },
+      {
+        "_processingProperties": {
+          "_properties": {},
+          "_defective": false,
+          "_humidity": 0,
+          "_itemCount": 1
+        },
+        "_currentState": "HARVESTED",
+        "_properties": {},
+        "_state": {
+          "_activityExecutions": [],
+          "_currentState": "HARVESTED"
+        },
+        "_id": {
+          "_id": "301a5bdf-fa18-4091-9ab2-5414cf739d40",
+          "_refcollection": "prodlots",
+          "_label": "130519 GL0 finca Camilla Martínez - Var1  - Harvested"
+        },
+        "_startDate": "2019-05-13T05:00:00.000Z",
+        "_finishedDate": "2019-05-13T05:00:00.000Z",
+        "_productionFacility": {
+          "_audit": {},
+          "_properties": {},
+          "_geoLots": [],
+          "_users": [],
+          "_facilityType": "Farm",
+          "_name": "finca Camilla Martínez",
+          "_location": {
+            "_isActive": true,
+            "_id": {
+              "_id": "51e29197-84fb-47a9-97d1-91bbc54bb434",
+              "_refcollection": "locations",
+              "_label": "finca Camilla Martínez"
+            },
+            "_properties": {},
+            "_name": "finca Camilla Martínez",
+            "_coordinates": {
+              "_latLong": {
+                "lat": 1,
+                "lon": 2
+              },
+              "_altitude": 989
+            }
+          },
+          "_id": {
+            "_isActive": true,
+            "_id": "b4262579-554f-4103-bd29-567f46b74494",
+            "_refcollection": "prodfacilities",
+            "_label": "finca Camilla Martínez - Farm"
+          }
+        }
+      }
+    ],
+    "_originProperties2": {
+      "_geoLot": {
+        "_audit": {},
+        "_properties": {},
+        "_variety": {
+          "_isActive": true,
+          "_id": {
+            "_id": "98e50dff-6e52-4b6e-84c3-4051b01925af",
+            "_refcollection": "varieties",
+            "_label": "1 - Var1 "
+          },
+          "_properties": {},
+          "_name": "Var1 ",
+          "_grade": 1
+        },
+        "_name": "GL0 finca Camilla Martínez",
+        "_location": {
+          "_isActive": true,
+          "_id": {
+            "_id": "700231d5-cb55-4846-a3b9-96b0426b9e1f",
+            "_refcollection": "locations",
+            "_label": "GL0 finca Camilla Martínez"
+          },
+          "_properties": {},
+          "_name": "GL0 finca Camilla Martínez",
+          "_coordinates": {
+            "_latLong": {
+              "lat": 1,
+              "lon": 2
+            },
+            "_altitude": 989
+          }
+        },
+        "_id": {
+          "_isActive": true,
+          "_id": "091a54f0-7277-472c-860a-919ef1544fc7",
+          "_refcollection": "geolots",
+          "_label": "GL0 finca Camilla Martínez - Var1 "
+        }
+      },
+      "_variety": {
+        "_audit": {},
+        "_properties": {},
+        "_name": "Var1 ",
+        "_grade": 1,
+        "_id": {
+          "_isActive": true,
+          "_id": "98e50dff-6e52-4b6e-84c3-4051b01925af",
+          "_refcollection": "varieties",
+          "_label": "1 - Var1 "
+        }
+      },
+      "_prodFacility": {
+        "_audit": {},
+        "_properties": {},
+        "_geoLots": [],
+        "_users": [],
+        "_facilityType": "Farm",
+        "_name": "finca Camilla Martínez",
+        "_location": {
+          "_isActive": true,
+          "_id": {
+            "_id": "51e29197-84fb-47a9-97d1-91bbc54bb434",
+            "_refcollection": "locations",
+            "_label": "finca Camilla Martínez"
+          },
+          "_properties": {},
+          "_name": "finca Camilla Martínez",
+          "_coordinates": {
+            "_latLong": {
+              "lat": 1,
+              "lon": 2
+            },
+            "_altitude": 989
+          }
+        },
+        "_id": {
+          "_isActive": true,
+          "_id": "b4262579-554f-4103-bd29-567f46b74494",
+          "_refcollection": "prodfacilities",
+          "_label": "finca Camilla Martínez - Farm"
+        }
+      },
+      "_collectionDate": "2019-05-13T05:00:00.000Z",
+      "_collectors": []
+    }
+  }
+}

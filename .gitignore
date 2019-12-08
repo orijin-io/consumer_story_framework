@@ -1,0 +1,15 @@
+node_modules
+csv_export_unittest_folder
+warehouse_unittest_folder
+/.idea/
+lerna-debug.log
+yarn-error.log
+.DS_Store
+src/.DS_Store
+firebase-debug.log
+.vscode/
+package-lock.json
+yarn.lock
+package-lock.json
+*.tgz
+packages/common/rendered.txt
