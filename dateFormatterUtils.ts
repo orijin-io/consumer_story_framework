@@ -73,6 +73,85 @@ const myHumanizer = humanizeDuration.humanizer({
   }
 });
 
+
+export function formatRoughPeriod(periodInSeconds: number): string {
+  //https://www.npmjs.com/package/humanize-duration
+  var sec_num = periodInSeconds;
+  var years = Math.floor(sec_num / (3600 * 24 * 365));
+  var months = Math.floor(sec_num / (3600 * 24 * 365 / 12));
+  var days = Math.floor(sec_num / (3600 * 24));
+  var weeks = Math.floor(sec_num / (3600 * 24 * 7));
+  var hours = Math.floor(sec_num / 3600);
+  var minutes = Math.floor((sec_num - (hours * 3600)) / 60);
+  var seconds = sec_num - (hours * 3600) - (minutes * 60);
+
+//['y', 'mo', 'w', 'd', 'h', 'm', 's', 'ms']
+  periodInSeconds = periodInSeconds * 1000;
+
+  var baselanguage = "en";
+  var short = "_short";
+  var basicParams = {
+    round: true
+  };
+  if (years > 0) {
+    return myHumanizer(periodInSeconds, { units: ["y", "mo"], language: baselanguage, ...basicParams });
+  }
+  if (months > 0) {
+    return myHumanizer(periodInSeconds, { units: ["mo"], language: baselanguage, ...basicParams });
+  }
+
+  if (weeks > 0) {
+    return myHumanizer(periodInSeconds, { units: ["w"], language: baselanguage, ...basicParams });
+  }
+  if (days > 0) {
+    return myHumanizer(periodInSeconds, { units: ["d"], language: baselanguage, ...basicParams });
+  }
+
+  if (hours > 0) {
+    if (hours > 5) {
+      return myHumanizer(periodInSeconds, { units: ["h"], language: baselanguage + short, ...basicParams });
+    } else {
+      return myHumanizer(periodInSeconds, { units: ["h", "m"], language: baselanguage + short, ...basicParams });
+    }
+
+  }
+
+  if (minutes > 0) {
+    if (minutes > 10) {
+      return myHumanizer(periodInSeconds, { units: ["m"], language: baselanguage + short, ...basicParams });
+    } else {
+      return myHumanizer(periodInSeconds, { units: ["m", "s"], language: baselanguage + short, ...basicParams });
+    }
+
+  }
+
+  return myHumanizer(periodInSeconds, { units: ["s"], language: baselanguage + short, ...basicParams });
+
+
+  // logger.debug("years:" + years)
+  // logger.debug("months:" + months)
+  // logger.debug("days:" + days)
+  // logger.debug("weeks:" + weeks)
+  // logger.debug("hours:" + hours)
+  // logger.debug("minutes:" + minutes)
+  // logger.debug("seconds:" + seconds)
+  // logger.debug("/////////////")
+}
+
+
+export function timeDiffferenceToPast(date1: Date): string {
+  console.log("timeDiffferenceToPast.date1 :" + date1);
+  var m1 = moment(date1);
+  var m2= moment(new Date());
+
+  var periodInSeconds = moment.duration(m2.diff(m1)).asSeconds();
+
+  console.log("periodInSeconds:timeDiffferenceToPast", periodInSeconds);
+
+  return formatRoughPeriod(periodInSeconds) + " ago";
+}
+
+
 export function formatPeriod(periodInSeconds: number): string {
   console.log("Format Period ---------------------------------------:" + periodInSeconds);
   //https://www.npmjs.com/package/humanize-duration
